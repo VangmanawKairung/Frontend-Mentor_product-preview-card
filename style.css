@@ -9,9 +9,9 @@
 body {
   background-color: hsl(30, 38%, 92%);
 }
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 599px) {
   body .container {
-    width: 90%;
+    width: 330px;
     height: 90vh;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
@@ -43,7 +43,7 @@ body {
     margin-top: 10px;
   }
 }
-@media (min-width: 376px) and (max-width: 1440px) {
+@media (min-width: 600px) and (max-width: 1440px) {
   body .container {
     width: 550px;
     height: 420px;
