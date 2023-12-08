@@ -131,3 +131,6 @@ body .container .info button {
 body .container .info button img {
   margin-right: 10px;
 }
+body .container .info button:hover {
+  background-color: hsl(158, 43%, 21%);
+}
