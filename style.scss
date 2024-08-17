@@ -11,7 +11,7 @@ body {
   background-color: hsl(30, 38%, 92%);
 
   @media (min-width: 375px) and (max-width: 599px) {
-    .container {
+    main {
       width: 330px;
       height: 90vh;
       background-color: hsl(0, 0%, 100%);
@@ -52,7 +52,7 @@ body {
   }
 
   @media (min-width: 600px) and (max-width: 1440px) {
-    .container {
+    main {
       width: 550px;
       height: 420px;
       background-color: hsl(0, 0%, 100%);
@@ -94,7 +94,7 @@ body {
     }
   }
 
-  .container {
+  main {
     .info {
       #product-category {
         font-family: "Montserrat", sans-serif;
