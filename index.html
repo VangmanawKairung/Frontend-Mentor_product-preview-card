@@ -7,32 +7,42 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="source/images/favicon-32x32.png"
+      href="./sources/images/favicon-32x32.png"
     />
-    <title>Frontend Mentor | Product preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <
-    <main>
-      <div id="product-image"></div>
-      <div class="info">
-        <p id="product-category">Perfume</p>
-
-        <h1 id="product-name">Gabrielle Essence Eau De Parfum</h1>
-
-        <p id="product-detail">
+    <main class="product-container">
+      <div class="product-image"></div>
+      <section class="product-info">
+        <p class="product-category">Perfume</p>
+        <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
+        <p class="product-detail">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
-
-        <h1 id="price">$149.99 <span id="previous-price">$169.99</span></h1>
-
-        <button id="add-to-cart">
-          <img src="source/images/icon-cart.svg" />
-          <p>Add to Cart</p>
+        <h2 class="product-price">
+          $149.99 <span class="product-actual-price">$169.99</span>
+        </h2>
+        <button
+          class="add-to-cart"
+          aria-label="Add Gabrielle Essence Eau De Parfum to cart"
+        >
+          <img
+            src="./sources/images/icon-cart.svg"
+            alt="Cart icon"
+            class="add-to-cart-icon"
+          />
+          <p class="add-to-cart-content">Add to Cart</p>
         </button>
-      </div>
+      </section>
     </main>
   </body>
 </html>
