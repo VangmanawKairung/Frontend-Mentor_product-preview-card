@@ -48,7 +48,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend-Mentor_product-preview-card](https://github.com/VangmanawKairung/Frontend-Mentor_product-preview-card)
+- Solution URL: [Product preview card page using HTML and CSS (Sass)](https://www.frontendmentor.io/solutions/product-preview-card-page-using-html-and-css-sass-XkoBzKepwG)
 - Live Site URL: [Frontend Mentor | Product preview card component](https://vangmanawkairung.github.io/Frontend-Mentor_product-preview-card/)
 
 ## My process
